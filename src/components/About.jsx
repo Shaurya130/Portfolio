@@ -14,7 +14,7 @@ const ServiceCard = ({ index, title, icon }) => (
   scale={1.05}
   transitionSpeed={450}
 
-  className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+  className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
 >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
